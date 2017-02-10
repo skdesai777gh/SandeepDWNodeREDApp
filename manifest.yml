@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: SandeepDWNodeREDApp
+  host: SandeepDWNodeRED
+  disk_quota: 1024M
+  services:
+  - SandeepDWNodeREDApp-cloudantNoSQLDB
+  - Language Translator-92
+  - Visual Recognition-ky
+  - Conversation-88
